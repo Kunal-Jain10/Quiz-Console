@@ -201,17 +201,17 @@ public class Quiz implements results{
                 case 1:
                     Java java = new Java();
                     java.topicName();
-                    System.out.println("You Scored: "+java.questions());
+                    System.out.println("You Scored: "+java.questions()+"\n");
                     break;
                 case 2:                 
                     Python python = new Python();
                     python.topicName();   
-                    System.out.println("You Scored: "+python.questions());
+                    System.out.println("You Scored: "+python.questions()+"\n");
                     break;
                 case 3:                
                     Cpp cpp = new Cpp();
                     cpp.topicName(); 
-                    System.out.println("You Scored: "+cpp.questions());   
+                    System.out.println("You Scored: "+cpp.questions()+"\n");   
                     break;
                 case 4:
                     break;
