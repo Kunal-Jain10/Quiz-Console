@@ -36,8 +36,7 @@ class Java extends Topic{
         Quiz response = new Quiz();
         for(int i=0;i<5;i++)
         {
-            System.out.println();
-            System.out.println(questionForJava.get(1)+". "+questionForJava.get(2));
+            System.out.println("\n"+questionForJava.get(1)+". "+questionForJava.get(2));
             System.out.println("a)"+questionForJava.get(3)+" b)"+questionForJava.get(4)+" c)"+questionForJava.get(5)+" d)"+questionForJava.get(6));
             String choice = ob.nextLine();
             if(choice.equals(questionForJava.get(7)))
@@ -81,7 +80,7 @@ class Python extends Topic {
         }
         for(int i=0;i<5;i++)
         {
-            System.out.println(questionForPython.get(1)+". "+questionForPython.get(2));
+            System.out.println("\n"+questionForPython.get(1)+". "+questionForPython.get(2));
             System.out.println("a)"+questionForPython.get(3)+" b)"+questionForPython.get(4)+" c)"+questionForPython.get(5)+" d)"+questionForPython.get(6));
             String choice = ob.nextLine();
             if(choice.equals(questionForPython.get(7)))
@@ -125,7 +124,7 @@ class Cpp extends Topic{
         }
         for(int i=0;i<5;i++)
         {
-            System.out.println(questionForCpp.get(1)+". "+questionForCpp.get(2));
+            System.out.println("\n"+questionForCpp.get(1)+". "+questionForCpp.get(2));
             System.out.println("a)"+questionForCpp.get(3)+" b)"+questionForCpp.get(4)+" c)"+questionForCpp.get(5)+" d)"+questionForCpp.get(6));
             String choice = ob.nextLine();
             if(choice.equals(questionForCpp.get(7)))
